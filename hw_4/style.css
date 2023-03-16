@@ -1,0 +1,161 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+.header_wrapper {
+  border: 1px solid #828282;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;   
+}
+header nav ul li a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #828282;
+  text-decoration: unset;
+}
+header nav ul li a.active-link {
+  color: #070707;
+}
+h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #070707;
+  text-align: center;
+  margin: 12px 0 50px 0; 
+}
+.About .title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+  margin: 100px 0 35px 0; 
+}
+.About .subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  padding: 15px;
+}
+.Skills {
+  padding: 100px;
+}
+.Skills .title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+}
+.Skills .subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  margin: 20px 0 50px 0; 
+}
+.Skills .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.Portfolio {
+  padding: 100px;
+}
+.Portfolio .title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+}
+.Portfolio .subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  margin: 40px 0 70px 0; 
+}
+.Contacts {
+  padding: 100px;
+}
+.Contacts .title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+}
+.Contacts .subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  margin: 20px 0 70px 0; 
+}
+.Contacts .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  background: #070707;
+  border-radius: 22px;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  width: 180px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.Contacts .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 50px;
+  margin: 30px 0 60px 0; 
+}

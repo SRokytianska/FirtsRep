@@ -1,0 +1,126 @@
+container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  width: 1200px;
+  height: 80px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header logo {
+  width: 200px;
+}
+header nav {
+  width: 352px; 
+  margin: 0 192px;
+   
+}
+header nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  height: 28px;
+  gap: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2F281E;
+  align-items: flex-start; 
+}
+.btn {
+  width: 252px;
+  float: left;
+  
+  }
+.button {
+  width: 110px; 
+  width: 58px;
+  height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2F281E;
+  padding: 13px 25px;
+  
+}
+.first {
+  float: left;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+}
+.second {
+  float: right;
+  color: #FFFFFF;
+  background: #FF9900;
+  border-radius: 4px;
+}
+.section {
+  margin: 70px;
+} 
+  .title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2F281E;
+  width: 500px;
+  height: 110px;
+  left: 0px;
+  top: 97px;
+}
+.subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  width: 500px;
+  height: 91px;
+  left: 0px;
+  top: 237px;
+  margin-top: 30px;
+}
+.button-large {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 40px;
+  width: 180px;
+  height: 50px;
+  left: 0px;
+  top: 348px;
+  background: #FF9900;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.third {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF9900;
+  border: 0;
+  }
+  .text {
+    display: inline-block;
+    margin: 97px 0;
+    width: 500px;
+    height: 301px;
+  }
+  .img {
+    display: inline-block;
+    gap: 56px;
+  }

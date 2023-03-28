@@ -12,7 +12,6 @@ top: 120px;
 
 }
 .title {
-width: 644px;
 height: 45px;
 left: 397px;
 top: 120px;
@@ -29,14 +28,14 @@ margin: 0 0 80px 0;
 .grid-1-2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 5px;
+    gap: 30px;
     margin: 5px 0;
 }
 .grid-2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 5px;
-    margin: 5px 0;
+    gap: 30px;
+    margin: 30px 0;
 }
 .item {
       position: relative;

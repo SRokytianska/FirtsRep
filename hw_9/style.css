@@ -1,0 +1,46 @@
+container {
+  width: 100%;
+  max-width: 1295px;
+  margin: 0 auto;
+}
+header {
+position: absolute;
+width: 1170px;
+height: 1295px;
+left: 135px;
+top: 120px;
+
+}
+.title {
+width: 644px;
+height: 45px;
+left: 397px;
+top: 120px;
+font-family: 'Delius Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+margin: 0 0 80px 0;
+}
+.grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+    margin: 5px 0;
+}
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    margin: 5px 0;
+}
+.item {
+      position: relative;
+}
+.item:hover .header {
+    opacity: 01;
+}

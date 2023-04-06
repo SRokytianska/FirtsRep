@@ -1,0 +1,140 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(./images/bg-picture.svg);
+  background-position: right 0 top 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 100px 1fr 250px;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+.logo {
+  width: 100%;
+  height: 20px;
+  max-width: 50px;
+  justify-content: center;
+  align-items: center;
+}  
+.nav-menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+  width: 261px; 
+  margin: 0 550px 0 50px;
+}
+ul li :hover {
+  text-decoration: none;
+}
+.nav-menu ul li {
+  display: inline-block;
+  height: 28px;
+  gap: 10px;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  align-items: flex-start; 
+}
+.nav-menu ul li:nth-child(1) a:after {
+  content: " /"
+}
+
+.companylogo {
+  float: right;
+  width: 238px;
+  height: 54px;
+  right: 120px;
+  top: 0px;
+}
+main {
+  position: relative;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 385px 785px;
+  gap: 30px;
+  height: 2931px;
+}
+.sidebar {
+   margin-top: 80px;
+   
+}   
+.sidebar nav {
+  position: sticky;
+  top: 40px;
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.sidebar nav ul li {
+  margin: 40px 0;
+}
+.content .item {
+  position: relative;
+  margin-top: 160px;
+}
+.content .item :before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -28px;
+  left: 0;
+  width: 100px;
+  border: 8px solid #000;
+  }    
+h2 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+span {
+  width: 100px;
+  height: 20px;
+  font-family: 'Farro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+p {
+  margin: 40px 0 40px;
+  width: 785px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+}

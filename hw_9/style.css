@@ -1,0 +1,117 @@
+container {
+  width: 100%;
+  max-width: 1295px;
+  margin: 0 auto;
+}
+header {
+position: absolute;
+width: 1170px;
+height: 1295px;
+left: 135px;
+top: 120px;
+
+}
+.title {
+height: 45px;
+left: 397px;
+top: 120px;
+font-family: 'Delius Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+margin: 120px 0 80px 0;
+}
+.grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin: 5px 0;
+}
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+.item {
+      position: relative;
+}
+.item:hover .header {
+    opacity: 01;
+}
+.layout-one {
+    display: grid;
+    grid-template-columns: 400px 400px 370px;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "one two two"
+                         "three three four"
+                         "five five six";
+}
+.one {
+    grid-area: one;
+    margin: 0 30px 30px 0;
+}
+.two {
+    grid-area: two;
+    margin: 0;
+}  
+.three {
+    grid-area: three;
+    margin: 0;
+} 
+.four {
+    grid-area: four;
+    margin: 0;
+} 
+.five {
+    grid-area: five;
+    margin: 0;
+}
+.six {
+    grid-area: six;
+    margin: 0;
+}
+.layout-two {
+display: grid;
+    grid-template-columns: 400px 400px 370px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one-one one-two one-three"
+                         "two-one one-two two-three"
+                         "three-one three-two two-three"
+                         "three-one four-two four-two"
+                         "five-one five-one five-three";
+}
+.one-one {
+    grid-area: one-one;
+    margin: 0 30px 30px 0;
+}
+.one-two {
+    grid-area: one-two;
+}
+.one-three {
+    grid-area: one-three;
+}
+.two-one {
+    grid-area: two-one;
+}
+.two-three {
+    grid-area: two-three;
+}
+.three-one {
+    grid-area: three-one;
+}
+.three-two {
+    grid-area: three-two;
+}
+.four-two {
+    grid-area: four-two;
+}
+.five-one {
+    grid-area: five-one;
+}.five-three {
+    grid-area: five-three;
+}
